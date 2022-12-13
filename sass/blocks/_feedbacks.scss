@@ -1,0 +1,39 @@
+.feedbacks {
+    h2 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+    }
+    &__item {
+        display: flex;
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+        img {
+            width: 169px;
+            height: 169px;
+        }
+    }
+    &__descr {
+        margin-left: 62px;
+    }
+    &__subheader {
+        font-weight: bold;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__small_subheader {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__text {
+        max-width: 680px;
+        margin-top: 10px;
+        font-size: 16px;
+        color: #0D0D0D;
+    }
+}
